@@ -52,12 +52,12 @@ ZONE= "the zone you set for your VMs"
 1. Ensure the script is executable:
 
 ```bash
-chmod +x <script_name>.sh
+chmod +x Elasticity.sh
 ```
 
 2. Run the script:
 ```bash
-./elasticity.sh
+./Elasticity.sh
 ```
 
 
