@@ -2,7 +2,7 @@
 
 ## Overview
 
-This script dynamically manages Google Cloud Compute Engine VM instances based on the average CPU usage of currently running instances. It automates the process of starting and stopping instances depending on system load, providing elasticity to your virtual infrastructure. When the CPU usage exceeds certain thresholds, additional VMs are started. Conversely, when CPU usage drops below defined levels, instances are stopped to conserve resources.
+This script dynamically manages Google Cloud Compute Engine VM instances based on the average CPU usage of currently running instances whose names start with "servidor" (I used this for my servers but you can change it to whatever you need!). It automates the process of starting and stopping instances depending on system load, providing elasticity to your virtual infrastructure. When CPU usage exceeds certain thresholds, additional VMs are started. Conversely, when CPU usage drops below defined levels, instances are stopped to conserve resources.
 
 ## Features
 
