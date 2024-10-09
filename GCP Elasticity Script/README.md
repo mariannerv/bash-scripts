@@ -12,7 +12,6 @@ This script dynamically manages Google Cloud Compute Engine VM instances based o
 
 ## Prerequisites
 
-- Google Cloud SDK (gcloud) installed and authenticated on the machine running this script.
 - Ensure that you have sufficient IAM permissions to manage instances (start/stop) and SSH into them.
 - SSH Access enabled for all target VMs. The SSH configuration must be properly set up.
 
