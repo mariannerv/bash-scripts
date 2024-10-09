@@ -5,7 +5,7 @@ I developed this script as part of my final degree project. One of the project c
 
 I decided that simple rules were not enough. Through [Project Honey Pot](https://www.projecthoneypot.org), I identified which countries were responsible for the most attacks. I then found a database containing IPv4 and IPv6 addresses from these countries and created this script, which essentially generates IPSets for them. This allowed me to create firewall rules that block incoming and outgoing traffic from these IP addresses.
 
-Ideally you would access [MaxMind's GeoLite2 database](https://www.maxmind.com/en/geoip-api-web-services?gad_source=1&gclid=Cj0KCQjwsJO4BhDoARIsADDv4vA3BoUMoVjSvqdISqbFYa6AbnOgwnAS2N39l8JGjReF90jN6uhP6tcaAld_EALw_wcB) and regularly download the most recent databases. However, since that required a paid subscription, I opted for simplicity and used geolocation databases that I had found elsewhere. Unfortunately, I won’t include them in this repository as I've lost access to them. 
+Ideally you would access [MaxMind's GeoLite2 database](https://www.maxmind.com/en/geoip-api-web-services?gad_source=1&gclid=Cj0KCQjwsJO4BhDoARIsADDv4vA3BoUMoVjSvqdISqbFYa6AbnOgwnAS2N39l8JGjReF90jN6uhP6tcaAld_EALw_wcB) and regularly download the most recent databases. However, since that required a paid subscription, I simply used the free ones available at their website. 
 
 ## How to run the scripts
 
