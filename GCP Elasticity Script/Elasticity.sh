@@ -11,8 +11,8 @@ stop_instance() {
 }
 
 #ID project and Zone
-PROJECT_ID="ad-2023-387314"
-ZONE="us-central1-a"
+PROJECT_ID="your project id"
+ZONE="the zone you picked for your VMs"
 gcloud config set project $PROJECT_ID
 
 # List active VM instances
