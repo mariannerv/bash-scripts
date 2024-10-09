@@ -58,7 +58,7 @@ You can modify the COUNTRIES array in the script to include or remove countries 
 - GeoLite2-Country-Blocks-IPv6.csv: Contains IPv6 address blocks.
 - GeoLite2-Country-Locations-en.csv: Maps countries to their GeoLite2 geoname IDs.
 
-These files can be obtained from [MaxMind's GeoLite2 database](https://www.maxmind.com/en/geoip-api-web-services?gad_source=1&gclid=Cj0KCQjwsJO4BhDoARIsADDv4vA3BoUMoVjSvqdISqbFYa6AbnOgwnAS2N39l8JGjReF90jN6uhP6tcaAld_EALw_wcB).
+These files can be obtained from [MaxMind's GeoLite2 database](https://www.maxmind.com/en/geoip-api-web-services?gad_source=1&gclid=Cj0KCQjwsJO4BhDoARIsADDv4vA3BoUMoVjSvqdISqbFYa6AbnOgwnAS2N39l8JGjReF90jN6uhP6tcaAld_EALw_wcB) but I also included them in this repo.
 
 ### How the script works
 
