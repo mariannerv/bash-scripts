@@ -16,7 +16,7 @@ ZONE="the zone you picked for your VMs"
 gcloud config set project $PROJECT_ID
 
 # List active VM instances
-ACTIVE_INSTANCES=$(gcloud compute instances list --filter="status=RUNNING" --format="value(name)")
+ACTIVE_INSTANCES=$(gcloud compute instances list --filter="status=RUNNING AND name~'^servidor'" --format="value(name)")
 
 # Calculate average CPU usage
 CPU_SUM=0
