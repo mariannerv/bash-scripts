@@ -1,7 +1,7 @@
 #!/bin/bash
 
-PROJECT_ID="ad-2023-387314"
-ZONE="us-central1-a"
+PROJECT_ID="YOUR PROJECT ID"
+ZONE="YOUR ZONE"
 gcloud config set project $PROJECT_ID
 
 get_cpu_usage() {
