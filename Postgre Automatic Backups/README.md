@@ -2,7 +2,7 @@
 # PostgreSQL Automatic Backup Solution
 ## Introduction
 
-This project provides a Dockerized solution for automating PostgreSQL database backups. The backup script runs inside a Docker container and creates compressed, encrypted backups, which are stored locally. The solution also manages backup retention, deleting old backups based on the specified number of days.
+This script provides a Dockerized solution for automating PostgreSQL database backups. The backup script runs inside a Docker container and creates compressed, encrypted backups, which are stored locally. The solution also manages backup retention, deleting old backups based on the specified number of days.
 
 ## Requirements
 
