@@ -1,4 +1,4 @@
-# bash-scripts
+# Bash-Scripts
 
 A collection of bash scripts I developed over time for other projects. This repo will be updated as I make more scripts. Each script contains a README file with all the information.
 
