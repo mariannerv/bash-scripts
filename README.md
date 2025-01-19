@@ -11,3 +11,7 @@ A collection of bash scripts I developed over time for other projects. This repo
 -  **GCP VM Monitoring**: This Bash script monitors CPU usage across all running Google Cloud VM instances whose names contain the word servidor(feel free to change it to whatever you need!). It retrieves the CPU usage, calculates the average CPU usage across all matching instances, and logs the results.
 
 -  **Postgre Automatic Backups**: This script provides a Dockerized solution for automating PostgreSQL database backups. The backup script runs inside a Docker container and creates compressed, encrypted backups, which are stored locally. The solution also manages backup retention, deleting old backups based on the specified number of days.
+
+## Liability
+
+All scripts provided in this repository are as-is and you use them at your own risk.
