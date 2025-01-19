@@ -15,3 +15,7 @@ A collection of bash scripts I developed over time for other projects. This repo
 ## Liability
 
 All scripts provided in this repository are as-is and you use them at your own risk.
+
+## LICENSE
+
+This collection of bash scripts is licensed under the [MIT License](LICENSE). Use it at your own risk.
