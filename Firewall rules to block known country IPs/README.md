@@ -7,18 +7,6 @@ I decided that simple rules were not enough. Through [Project Honey Pot](https:/
 
 Ideally you would access [MaxMind's GeoLite2 database](https://www.maxmind.com/en/geoip-api-web-services?gad_source=1&gclid=Cj0KCQjwsJO4BhDoARIsADDv4vA3BoUMoVjSvqdISqbFYa6AbnOgwnAS2N39l8JGjReF90jN6uhP6tcaAld_EALw_wcB) and regularly download the most recent databases. However, since that required a paid subscription, I simply used the free ones available at their website. 
 
-## How to run the scripts
-
-First things first, you need to add execution permissions to all scripts of course:
-
-
-```bash
-chmod +x dependencies.sh
-chmod +x create_ipsets.sh
-chmod +x create_rules.sh
-```
-
-
 ## dependencies.sh
 
 The **dependencies.sh** script, as the name suggests, installs the necessary dependencies: 
@@ -91,6 +79,17 @@ This script creates firewall rules using iptables to block both **incoming** and
 - Blocks incoming traffic: Prevents traffic from IP addresses within the specified countries from reaching the system.
 - Blocks outgoing traffic: Prevents traffic from your system from reaching IP addresses within the specified countries.
 - Easy to modify: You can adjust the list of countries by editing the COUNTRIES array.
+
+## How to run the scripts
+
+First things first, you need to add execution permissions to all scripts of course:
+
+
+```bash
+chmod +x dependencies.sh
+chmod +x create_ipsets.sh
+chmod +x create_rules.sh
+```
 
 
 --- 
