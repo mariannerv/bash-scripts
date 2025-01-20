@@ -82,13 +82,19 @@ This script creates firewall rules using iptables to block both **incoming** and
 
 ## How to run the scripts
 
-First things first, you need to add execution permissions to all scripts of course:
+1. First things first, you need to add execution permissions to all scripts of course:
 
 
 ```bash
 chmod +x dependencies.sh
 chmod +x create_ipsets.sh
 chmod +x create_rules.sh
+```
+2. Run the scripts in the following order:
+```bash
+sudo ./dependencies.sh
+sudo ./create_ipsets.sh
+sudo ./create_rules.sh
 ```
 
 
